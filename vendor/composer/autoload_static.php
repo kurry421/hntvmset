@@ -11,12 +11,20 @@ class ComposerStaticInitbb79b58bd7e2e2e6b817954628b31641
         array (
             'Twilio\\' => 7,
         ),
+        'S' => 
+        array (
+            'Stripe\\' => 7,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Twilio\\' => 
         array (
             0 => __DIR__ . '/..' . '/twilio/sdk/Twilio',
+        ),
+        'Stripe\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
         ),
     );
 
